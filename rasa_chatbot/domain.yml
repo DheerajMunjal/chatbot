@@ -1,0 +1,224 @@
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- intro_vedworld
+- vedasinfo
+- products
+- services
+- sell
+- latest_offer
+- cancel_order
+- return_order
+- payment_issues
+- track_order
+- refund
+- query
+- greet
+- goodbye
+- bot_challenge
+- Vedasinfo
+- 'query:'
+responses:
+  utter_intro_vedworld:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: VEDAS are the most primordial source of knowledge and wisdom throughout
+      the universe. It was this thought that emerged as an idea to create the world’s
+      first Spiritual Science Company, Our motto is to spread this sacred ancient
+      knowledge of the Vedas to the whole world for the benefit of the entire mankind
+      via our Patented Products, Processes, & Services, We as a spiritual science
+      company are engaged in R&D to ensure our faithful customers that our products
+      are completely unique & differ in their quality, process of creation & manifested
+      for growth and progress. VED WORLD gives you the satisfaction of becoming a
+      part of the great Vedic revolution
+  utter_vedasinfo:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: You can know about yourself with our Ved Chakra(Ved Chakra Link)
+  utter_products:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Sure, these are the categories of products that we sell  Astamangal , …
+      Please do click on this link to know more about them [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_services:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Sure, these are the services we provide  Astamangal , ….. Please do click
+      on this link to know more about them [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_sell:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Please Signup as seller
+  utter_latest_offer:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: We have offers for wide range of products . To know more about exclusive
+      offers, please click on link [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_cancel_order:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Sorry for the inconveniences caused . Please follow the steps on the link
+      to cancel your order [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_return_order:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Sorry for the inconveniences caused . Please follow the steps on the link
+      to return your order [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_payment_issues:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Please type your query. Our team will get back to you soon
+  utter_track_order:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: To know more about your order. Please click on the link  [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_refund:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: To know more about your refund request . Please click on the link  [website](https://www.amazon.in/SHIVMART-Rudraksha-Trishula-Pendant-Necklace/dp/B07SS2PVLD/ref=sr_1_5?dchild=1&keywords=mudra+locket&qid=1601036383&sr=8-5)
+  utter_query:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Please type your query, Our team will get back to you soon
+  utter_greet:
+  - buttons:
+    - payload: /vedasinfo
+      title: Vedas About Me
+    - payload: /products
+      title: Products
+    - payload: /services
+      title: Services
+    - payload: /latest_offer
+      title: Latest Offer
+    - payload: /query
+      title: Raise a Query
+    text: Hey! I am Veda Swami, how can I help you..Please select one of the options
+  utter_goodbye:
+  - text: Bye
+  utter_iamabot:
+  - text: I am Veda Swami, how can I help you..
+actions:
+- utter_intro_vedworld
+- utter_vedasinfo
+- utter_products
+- utter_services
+- utter_sell
+- utter_latest_offer
+- utter_cancel_order
+- utter_return_order
+- utter_payment_issues
+- utter_track_order
+- utter_refund
+- utter_query
+- utter_greet
+- utter_goodbye
+- utter_iamabot
